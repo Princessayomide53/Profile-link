@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Contact"
 
 
 
@@ -41,7 +42,11 @@ function App() {
   <div className='text-gray-900 flex justify-center bg-[#EAECF0] rounded-2xl px-5 py-10  text-lg leading-7 mt-10 font-medium mb-10 hover:bg-gray-100'>
         <a id='book__design' href="https://books.zuri.team/design-rules">Design Books</a>
         </div>
-      
+
+        <div className='text-gray-900 flex justify-center bg-[#EAECF0] rounded-2xl px-5 py-10  text-lg leading-7 mt-10 font-medium mb-10 hover:bg-gray-100'>
+        <a id='contact' href="/contact">Contact</a>
+        </div>
+      <Contact />
       </div>
       
     );

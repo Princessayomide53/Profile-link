@@ -6,13 +6,16 @@ import btn1 from './img/_Avatar share button (1).png'
 import btn2 from './img/_Avatar share button.png'
 import zuri from './img/Zuri.Logo.png'
 import ingress from './img/ingressive.png'
-
+import { BrowserRouter as Router, Routes } from 'react-router-dom'
 
 function App() {
 
   
   return (
     <>
+
+
+
 
   <div className='flex justify-end mt-5'>
       <img src={btn1} alt="arrow" className='hidden md:hidden lg:block xl:block 2xl:block mr-44 '/>
@@ -30,7 +33,7 @@ function App() {
     
 
     <div className='flex justify-center mt-5'>  
-      <img src={slack1} alt="slack pic" />
+      <img src={slack1} alt="slack pic"/>
           </div>
 
 
