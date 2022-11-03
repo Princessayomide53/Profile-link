@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from "react-dom/client";
 import Main from './components/Main'
 import my_picture from './img/my_picture.jpg'
 import slack1 from './img/Social Sectionslack.png'
@@ -6,10 +7,15 @@ import btn1 from './img/_Avatar share button (1).png'
 import btn2 from './img/_Avatar share button.png'
 import zuri from './img/Zuri.Logo.png'
 import ingress from './img/ingressive.png'
-import { BrowserRouter as Router, Routes } from 'react-router-dom'
+import { createBrowserRouter,
+  RouterProvider,
+  Route} from 'react-router-dom'
+import Contact from './Pages/Contact'
 
 function App() {
 
+  
+  
   
   return (
     <>
@@ -60,6 +66,8 @@ function App() {
     <img src={ingress} alt="logo2"/>
     </div>
     </div>
+
+
 
     </>
 
