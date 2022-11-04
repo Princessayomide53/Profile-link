@@ -5,12 +5,11 @@ import my_picture from './img/my_picture.jpg'
 import slack1 from './img/Social Sectionslack.png'
 import btn1 from './img/_Avatar share button (1).png'
 import btn2 from './img/_Avatar share button.png'
-import zuri from './img/Zuri.Logo.png'
-import ingress from './img/ingressive.png'
 import { createBrowserRouter,
   RouterProvider,
   Route} from 'react-router-dom'
 import Contact from './Pages/Contact'
+import Footer from './components/Footer';
 
 function App() {
 
@@ -43,32 +42,7 @@ function App() {
           </div>
 
 
-    <div className='flex justify-center'>
-      <hr style={{
-        borderColor:'whitesmoke',
-        height: '3px',
-        width: '85%',
-
-      }} />
-    </div>
-
-<div className='lg:flex lg:justify-around p-5 mt-10 mb-5 lg:pt-0'>  
-
-    <div>
-    <img src={zuri} alt="logo"/>
-    </div>
-
-    <div className='font-normal pt-2 text-base text-[#667085] leading-6'>
-      <p>HNG9 Intership 9 Frontend Task </p>
-    </div>
-
-    <div className='flex pt-2'>
-    <img src={ingress} alt="logo2"/>
-    </div>
-    </div>
-
-
-
+<Footer />
     </>
 
 
