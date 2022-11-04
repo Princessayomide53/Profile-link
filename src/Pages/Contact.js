@@ -15,14 +15,14 @@ function Contact() {
          <label className='font-medium text-lg leading-5 text-[#344054]'>Lastname </label><br />
          </div>
 
-         {/* <div className='flex space-x-52 mb-5'>
+         <div className='flex space-x-52 mb-5'>
          <input type="text" placeholder="Enter your first name" className='py-2 pl-5 pr-52 bg-[#D0D5DD] rounded-md'/>
         <input type="text" placeholder="Enter your last name" className='py-2 pl-5 pr-52 bg-[#D0D5DD] rounded-md'/>
         </div> 
         <div className="mb-5">
             <label className='font-medium text-lg leading-5 mb-5 text-[#344054]'>Email</label> <br />
             <input type="password" placeholder="yourname@email.com" className='py-2 pl-5 w-10/12 rounded-md bg-[#D0D5DD]' />
-        </div> */}
+        </div>
             </form>
             </div>
 
