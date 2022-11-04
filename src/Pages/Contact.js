@@ -19,9 +19,9 @@ function Contact() {
          <input type="text" placeholder="Enter your first name" className='py-2 outline-slate-500 pl-5 pr-52 bg-[#D0D5DD] rounded-md'/>
         <input type="text" placeholder="Enter your last name" className='py-2 pl-5 pr-52 outline-slate-500 bg-[#D0D5DD] rounded-md'/>
         </div> 
-        <div className="mb-5">
+        <div className="space-y-2">
             <label className='font-medium text-lg leading-5 mb-5 text-[#344054]'>Email</label> <br />
-            <input type="password" placeholder="yourname@email.com" className='py-2 pl-5 w-10/12 rounded-md bg-[#D0D5DD] outline-slate-500' />
+            <input type="password" placeholder="yourname@email.com" className='pt-2 py-2 pl-5 w-10/12 rounded-md bg-[#D0D5DD] outline-slate-500' />
         </div>
             </form>
             </div>
