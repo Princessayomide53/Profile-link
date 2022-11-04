@@ -29,6 +29,11 @@ function Contact() {
             <textarea placeholder="Send me a message i will reply as soon as possible" className="pt-2 py-36 pl-5 w-10/12 block rounded-md bg-[#D0D5DD] outline-slate-500"></textarea>
         </div>
 
+        <div className="space-x-5 mt-6">
+            <input type="checkbox" className='w-4 h-4 rounded-md bg-[#D0D5DD] outline-slate-500' />
+            <label className='text-[#475467] text-md tracking-wide leading-6 font-normal'>You agree to providing your data to Princess who may contact you</label>
+        </div>
+
             </form>
             </div>
 
