@@ -33,7 +33,7 @@ function Contact() {
         if(Object.keys(formErrors).length === 0 && isSubmit) {
             
         }
-    },[formErrors])
+    },[formErrors, isSubmit])
 
  
 
