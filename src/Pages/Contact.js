@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import Footer from "../components/Footer"
+import "../Contact.css"
 
 function Contact() {
 
@@ -61,15 +62,15 @@ function Contact() {
 
     return (
         <>
-        <div className='p-5 overflow-hidden flex-wrap'>
+        <div className='p-5 w-full max-w-[720px] mx-auto overflow-hidden flex-wrap'>
     
             <h1 className='font-semibold text-4xl text-[#101828] leading-8 mb-5 pt-0 -mt-2'>Contact Me</h1>
             <div className='text-[#475467] text-lg lg:text-xl 2xl:text-xl xl:text-xl leading-7 mb-2   tracking-normal md:tracking-normal lg:tracking-wide' > <p className='break-normal flex-wrap'>Hi there, contact me to ask me anything you have in mind.</p> </div> 
          <form onSubmit={handleSubmit}>
         
          <div className=''>
-            <div className="lg:flex  xl:flex 2xl:flex lg:gap-1 lg:space-x-52 xl:gap-x-16 xl:space-x-96 2xl:space-x-96 2xl:gap-80">
-            <div className='flex-col mb-2 md:flex-col'>
+            <div className="lg:flex lg:gap-8">
+            <div className='flex-col mb-2 md:flex-col w-full'>
             <label className='font-medium text-lg leading-5 text-[#344054]'>First name </label><br /> 
             <input 
              type="text"
@@ -78,11 +79,11 @@ function Contact() {
              value={formValues.first_name}
              onChange={handleChange}
                placeholder="Enter your first name" 
-               className='h-12 pl-5 md:w-full w-full lg:w-96 xl:w-96 2xl:w-96 bg-[#D0D5DD] focus:invalid:outline-[#F89687] focus:outline-[#84CAFF] rounded-md shadow-md shadow-[#84CAFF] '/>
+               className='h-12 pl-5 md:w-full w-full bg-white focus:invalid:outline-[#F89687] focus:outline-[#84CAFF] rounded-md border-1 border-black'/>
          <p className="text-xl pt-2 flex-start text-[#F89687]">{formErrors.first_name}</p>
              </div>
     
-             <div className='flex-col mb-5'>
+             <div className='flex-col w-full mb-5'>
          <label className='font-medium text-lg leading-5 lg::space-x-10 text-[#344054]'>Last name </label><br />
         <input 
         type="text"
@@ -91,7 +92,7 @@ function Contact() {
          value={formValues.last_name}
          onChange={handleChange}
           placeholder="Enter your last name" 
-          className='h-12 pl-5 w-full md:w-full lg:w-96 xl:w-96 2xl:w-96 bg-[#D0D5DD] focus:invalid:outline-[#F89687] rounded-md focus:outline-[#84CAFF] shadow-md shadow-[#84CAFF] '/>
+          className='h-12 pl-5 w-full md:w-full lg:w-[100%] bg-white focus:invalid:outline-[#F89687] rounded-md focus:outline-[#84CAFF] '/>
                 <p className="text-xl pt-2 text-[#ec715e]">{formErrors.last_name}</p>
             </div> 
             </div>
@@ -107,7 +108,7 @@ function Contact() {
                 
                  
                 placeholder="yourname@email.com"
-                 className='pt-2 h-12 pl-5 w-full md:w-full lg:w-full 2xl:w-full xl:w-full rounded-md bg-[#D0D5DD] focus:invalid:outline-[#F89687] focus:outline-[#84CAFF] shadow-md shadow-[#84CAFF]' />
+                 className='pt-2 h-12 pl-5 w-full md:w-full lg:w-full 2xl:w-full xl:w-full rounded-md bg-white focus:invalid:outline-[#F89687] focus:outline-[#84CAFF]' />
     
                  
     
@@ -123,7 +124,7 @@ function Contact() {
              value={formValues.message}
              onChange={handleChange}
                 placeholder="Send me a message i will reply as soon as possible"
-                 className="pt-2 py-36 pl-5 lg:w-full md:w-full w-full block rounded-md focus:outline-[#84CAFF] bg-[#D0D5DD] shadow-md checked:bg-[#84CAFF] shadow-[#84CAFF] "></textarea>
+                 className="pt-2 py-36 pl-5 lg:w-full md:w-full w-full block rounded-md focus:outline-[#84CAFF] border-solid border-black border-1 resize-none "></textarea>
     
             </div>
             <p className="text-xl text-[#ec715e]">{formErrors.message}</p>
