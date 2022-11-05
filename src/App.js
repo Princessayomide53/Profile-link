@@ -1,14 +1,14 @@
 import React from 'react'
-import ReactDOM from "react-dom/client";
+// import ReactDOM from "react-dom/client";
 import Main from './components/Main'
 import my_picture from './img/my_picture.jpg'
 import slack1 from './img/Social Sectionslack.png'
 import btn1 from './img/_Avatar share button (1).png'
 import btn2 from './img/_Avatar share button.png'
-import { createBrowserRouter,
-  RouterProvider,
-  Route} from 'react-router-dom'
-import Contact from './Pages/Contact'
+// import { createBrowserRouter,
+//   RouterProvider,
+//   Route} from 'react-router-dom'
+// import Contact from './Pages/Contact'
 import Footer from './components/Footer';
 
 function App() {

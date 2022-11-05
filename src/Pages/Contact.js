@@ -1,8 +1,5 @@
-
 import React, { useState, useEffect } from "react"
 import Footer from "../components/Footer"
-
-// ahh thank God
 
 function Contact() {
 
@@ -38,12 +35,11 @@ function Contact() {
         }
     },[formErrors])
 
-    //you dont need this function below to show the validation errors
-    // just css can do it 
+ 
 
     const validate = (values) => {
         const errors = {}
-        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+        // const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
 
         if (!values.first_name) {
             errors.first_name = "Please enter first name!";

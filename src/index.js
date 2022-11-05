@@ -8,7 +8,6 @@ import Contact from './Pages/Contact'
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
 } from "react-router-dom";
 
 
