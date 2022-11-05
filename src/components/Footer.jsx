@@ -13,7 +13,7 @@ function Footer () {
       }} />
     </div>
 
-   <div className='lg:flex lg:justify-around p-5 mt-10 mb-5 lg:pt-0'>  
+   <div className='lg:flex lg:justify-around pl-10 mt-5 mb-5 lg:pt-0'>  
 
 <div>
 <img src={zuri} alt="logo"/>
